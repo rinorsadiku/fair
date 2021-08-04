@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=raleway');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Dosis');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background: #263e66;
+}
+
+.welcome {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 100px;
+}
+
+.welcome:hover {
+	transition: all 1s ease-in-out;
+	color: white;
+}
+
+.btn {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-family: 'raleway', sans-serif;
+	text-decoration: none;
+	font-size: 30px;
+	color: #000000;
+	border: 2px solid black;
+	border-radius: 9px; 
+	padding: 10px;
+	transition: all 0.5s;
+}
+
+.btn:hover {
+	border: 4px solid white;
+	color: white;
+	padding: 7px;
+}
+
+.form_box{
+ 	width:50%;
+ 	padding-left: 10%;
+ 	padding-top: 10%;
+ 	background: url(https://www.pexels.com/photo/background-brick-wall-bricks-brickwork-259915/);
+ 	background: cover;
+ }
+
+ .form_box p {
+ 	margin-bottom: 20px;
+ 	font-family: 'raleway', sans-serif;
+
+ }
+
+ .form_box h1 {
+ 	font-size: 50px;
+	font-family: 'Bree Serif', serif;
+	padding-bottom: 10px;
+ }
+
+ .form_box form button {
+ 	width: 100px;
+ 	height: 40px;
+ 	background: #263e66;
+ 	border: 2px solid #132647;
+ 	cursor: pointer;
+ 	color: white;
+ }
+
+ .form_box:hover {
+ 	transition: all 0.3s;
+ 	color: #ffffff;
+ }
+
+ 
+
+.form_radio{
+ 	clear:both;
+ 	width:60px;
+ 	height:10px;
+ 	margin-bottom: 4px;
+ 	padding:0px 0.1%;
+ 	border:1px solid #ccc;
+ 	float:left;
+ }
+
+.prize {
+	position: absolute;
+	top: 70%;
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+	font-weight: 5px;
+}
+
+.back_button {
+	position: absolute;
+	top: 90%;
+	left: 80%;
+	transform: translateX(-50%) translateY(-50%);
+	font-size: 20px;
+	font-family: 'raleway', sans-serif;
+	border: 1px solid white;
+	border-radius: 15px;
+	padding: 10px;
+	transition: 1s all ease-in-out;
+}
+
+.back_button:hover {
+	border-radius: 5px;
+	border: solid 3px #263e66;
+	color: #ffffff;
+}
+
+h4 {
+	color: #b52020;
+	font-family: 'raleway', sans-serif;
+	font-weight: 5;
+	margin-left: 30px;
+}
